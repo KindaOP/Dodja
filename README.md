@@ -1,4 +1,4 @@
-# Juke
+# Dodja
 A simple project detecting Thai phrases and keywords from system sound output, totally not intended for skipping classes.
 
 ## Version 0.1
@@ -14,7 +14,7 @@ A simple project detecting Thai phrases and keywords from system sound output, t
 ### Usage
 To run the script (for now), type in cmd:
 ```
-python juke.py [-h/--help] [--v] <w1> <w2> <w3> ...
+python dodja.py [-h/--help] [--v] <w1> <w2> <w3> ...
 ```
 When any phrase or keyword `<w>` is found, `report(.)` currently plays siren SFX and sends post request to LINE Notify API. Feel free to edit `report(.)` or anything within the script. Just be sure to include the original license.
 

@@ -62,10 +62,10 @@ def main():
                 wf.writeframes(b''.join(frames))
                 frames = []
             texts = asr(path)
-            latency = time.time() - latency
             for phrase in args.phrases:
                 if phrase in texts:
                     message = f"Hurry up! Someone just said {phrase} at {time_stamp}."
+                    latency = time.time() - latency
                     if not _alarm:
                         thread = threading.Thread(target=report, args=(message,))
                         thread.start()

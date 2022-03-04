@@ -9,7 +9,7 @@ A simple project detecting Thai phrases and keywords from system sound output, t
 4. Listen to CABLE Output using Headphones. (Current Limitation)
 5. Generate token for LINE Notify in https://notify-bot.line.me/en/.
 6. Add LINE Notify to target chat/group for notification.
-7. Assign token to TOKEN in juke.py.
+7. Assign token to TOKEN in dodja.py.
 
 ### Usage
 To run the script (for now), type in cmd:
